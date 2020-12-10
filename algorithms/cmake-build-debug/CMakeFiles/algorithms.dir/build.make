@@ -57,35 +57,9 @@ include CMakeFiles/algorithms.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/algorithms.dir/flags.make
 
-CMakeFiles/algorithms.dir/main.cpp.o: CMakeFiles/algorithms.dir/flags.make
-CMakeFiles/algorithms.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bilibili/Documents/学习/算法课程/workspace/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/algorithms.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algorithms.dir/main.cpp.o -c /Users/bilibili/Documents/学习/算法课程/workspace/algorithms/main.cpp
-
-CMakeFiles/algorithms.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algorithms.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bilibili/Documents/学习/算法课程/workspace/algorithms/main.cpp > CMakeFiles/algorithms.dir/main.cpp.i
-
-CMakeFiles/algorithms.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algorithms.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bilibili/Documents/学习/算法课程/workspace/algorithms/main.cpp -o CMakeFiles/algorithms.dir/main.cpp.s
-
-CMakeFiles/algorithms.dir/datastructure/array/1.cpp.o: CMakeFiles/algorithms.dir/flags.make
-CMakeFiles/algorithms.dir/datastructure/array/1.cpp.o: ../datastructure/array/1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bilibili/Documents/学习/算法课程/workspace/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/algorithms.dir/datastructure/array/1.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algorithms.dir/datastructure/array/1.cpp.o -c /Users/bilibili/Documents/学习/算法课程/workspace/algorithms/datastructure/array/1.cpp
-
-CMakeFiles/algorithms.dir/datastructure/array/1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algorithms.dir/datastructure/array/1.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bilibili/Documents/学习/算法课程/workspace/algorithms/datastructure/array/1.cpp > CMakeFiles/algorithms.dir/datastructure/array/1.cpp.i
-
-CMakeFiles/algorithms.dir/datastructure/array/1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algorithms.dir/datastructure/array/1.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bilibili/Documents/学习/算法课程/workspace/algorithms/datastructure/array/1.cpp -o CMakeFiles/algorithms.dir/datastructure/array/1.cpp.s
-
 CMakeFiles/algorithms.dir/datastructure/linkedlist/1.cpp.o: CMakeFiles/algorithms.dir/flags.make
 CMakeFiles/algorithms.dir/datastructure/linkedlist/1.cpp.o: ../datastructure/linkedlist/1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bilibili/Documents/学习/算法课程/workspace/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/algorithms.dir/datastructure/linkedlist/1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bilibili/Documents/学习/算法课程/workspace/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/algorithms.dir/datastructure/linkedlist/1.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algorithms.dir/datastructure/linkedlist/1.cpp.o -c /Users/bilibili/Documents/学习/算法课程/workspace/algorithms/datastructure/linkedlist/1.cpp
 
 CMakeFiles/algorithms.dir/datastructure/linkedlist/1.cpp.i: cmake_force
@@ -98,19 +72,15 @@ CMakeFiles/algorithms.dir/datastructure/linkedlist/1.cpp.s: cmake_force
 
 # Object files for target algorithms
 algorithms_OBJECTS = \
-"CMakeFiles/algorithms.dir/main.cpp.o" \
-"CMakeFiles/algorithms.dir/datastructure/array/1.cpp.o" \
 "CMakeFiles/algorithms.dir/datastructure/linkedlist/1.cpp.o"
 
 # External object files for target algorithms
 algorithms_EXTERNAL_OBJECTS =
 
-algorithms: CMakeFiles/algorithms.dir/main.cpp.o
-algorithms: CMakeFiles/algorithms.dir/datastructure/array/1.cpp.o
 algorithms: CMakeFiles/algorithms.dir/datastructure/linkedlist/1.cpp.o
 algorithms: CMakeFiles/algorithms.dir/build.make
 algorithms: CMakeFiles/algorithms.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bilibili/Documents/学习/算法课程/workspace/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable algorithms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bilibili/Documents/学习/算法课程/workspace/algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable algorithms"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/algorithms.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
