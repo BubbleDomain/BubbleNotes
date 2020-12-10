@@ -123,6 +123,60 @@ algorithms/fast:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
+datastructure/array/1.o: datastructure/array/1.cpp.o
+
+.PHONY : datastructure/array/1.o
+
+# target to build an object file
+datastructure/array/1.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/array/1.cpp.o
+.PHONY : datastructure/array/1.cpp.o
+
+datastructure/array/1.i: datastructure/array/1.cpp.i
+
+.PHONY : datastructure/array/1.i
+
+# target to preprocess a source file
+datastructure/array/1.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/array/1.cpp.i
+.PHONY : datastructure/array/1.cpp.i
+
+datastructure/array/1.s: datastructure/array/1.cpp.s
+
+.PHONY : datastructure/array/1.s
+
+# target to generate assembly for a file
+datastructure/array/1.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/array/1.cpp.s
+.PHONY : datastructure/array/1.cpp.s
+
+datastructure/linkedlist/1.o: datastructure/linkedlist/1.cpp.o
+
+.PHONY : datastructure/linkedlist/1.o
+
+# target to build an object file
+datastructure/linkedlist/1.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/linkedlist/1.cpp.o
+.PHONY : datastructure/linkedlist/1.cpp.o
+
+datastructure/linkedlist/1.i: datastructure/linkedlist/1.cpp.i
+
+.PHONY : datastructure/linkedlist/1.i
+
+# target to preprocess a source file
+datastructure/linkedlist/1.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/linkedlist/1.cpp.i
+.PHONY : datastructure/linkedlist/1.cpp.i
+
+datastructure/linkedlist/1.s: datastructure/linkedlist/1.cpp.s
+
+.PHONY : datastructure/linkedlist/1.s
+
+# target to generate assembly for a file
+datastructure/linkedlist/1.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/linkedlist/1.cpp.s
+.PHONY : datastructure/linkedlist/1.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... algorithms"
+	@echo "... datastructure/array/1.o"
+	@echo "... datastructure/array/1.i"
+	@echo "... datastructure/array/1.s"
+	@echo "... datastructure/linkedlist/1.o"
+	@echo "... datastructure/linkedlist/1.i"
+	@echo "... datastructure/linkedlist/1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

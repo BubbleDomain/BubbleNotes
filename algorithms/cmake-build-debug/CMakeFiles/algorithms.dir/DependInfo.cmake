@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/bilibili/Documents/学习/算法课程/workspace/algorithms/datastructure/array/1.cpp" "/Users/bilibili/Documents/学习/算法课程/workspace/algorithms/cmake-build-debug/CMakeFiles/algorithms.dir/datastructure/array/1.cpp.o"
+  "/Users/bilibili/Documents/学习/算法课程/workspace/algorithms/datastructure/linkedlist/1.cpp" "/Users/bilibili/Documents/学习/算法课程/workspace/algorithms/cmake-build-debug/CMakeFiles/algorithms.dir/datastructure/linkedlist/1.cpp.o"
   "/Users/bilibili/Documents/学习/算法课程/workspace/algorithms/main.cpp" "/Users/bilibili/Documents/学习/算法课程/workspace/algorithms/cmake-build-debug/CMakeFiles/algorithms.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

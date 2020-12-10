@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/bilibili/Documents/学习/算法课程/workspace/algorithms/datastructure/array/1.cpp">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/bilibili/Documents/学习/算法课程/workspace/algorithms/datastructure/linkedlist/1.cpp">
+			<Option target="algorithms"/>
+		</Unit>
 		<Unit filename="/Users/bilibili/Documents/学习/算法课程/workspace/algorithms/main.cpp">
 			<Option target="algorithms"/>
 		</Unit>
