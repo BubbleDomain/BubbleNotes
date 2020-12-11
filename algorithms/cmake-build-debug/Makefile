@@ -123,32 +123,32 @@ algorithms/fast:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
-datastructure/linkedlist/25.o: datastructure/linkedlist/25.cpp.o
+datastructure/linkedlist/26.o: datastructure/linkedlist/26.cpp.o
 
-.PHONY : datastructure/linkedlist/25.o
+.PHONY : datastructure/linkedlist/26.o
 
 # target to build an object file
-datastructure/linkedlist/25.cpp.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/linkedlist/25.cpp.o
-.PHONY : datastructure/linkedlist/25.cpp.o
+datastructure/linkedlist/26.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/linkedlist/26.cpp.o
+.PHONY : datastructure/linkedlist/26.cpp.o
 
-datastructure/linkedlist/25.i: datastructure/linkedlist/25.cpp.i
+datastructure/linkedlist/26.i: datastructure/linkedlist/26.cpp.i
 
-.PHONY : datastructure/linkedlist/25.i
+.PHONY : datastructure/linkedlist/26.i
 
 # target to preprocess a source file
-datastructure/linkedlist/25.cpp.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/linkedlist/25.cpp.i
-.PHONY : datastructure/linkedlist/25.cpp.i
+datastructure/linkedlist/26.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/linkedlist/26.cpp.i
+.PHONY : datastructure/linkedlist/26.cpp.i
 
-datastructure/linkedlist/25.s: datastructure/linkedlist/25.cpp.s
+datastructure/linkedlist/26.s: datastructure/linkedlist/26.cpp.s
 
-.PHONY : datastructure/linkedlist/25.s
+.PHONY : datastructure/linkedlist/26.s
 
 # target to generate assembly for a file
-datastructure/linkedlist/25.cpp.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/linkedlist/25.cpp.s
-.PHONY : datastructure/linkedlist/25.cpp.s
+datastructure/linkedlist/26.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/linkedlist/26.cpp.s
+.PHONY : datastructure/linkedlist/26.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... algorithms"
-	@echo "... datastructure/linkedlist/25.o"
-	@echo "... datastructure/linkedlist/25.i"
-	@echo "... datastructure/linkedlist/25.s"
+	@echo "... datastructure/linkedlist/26.o"
+	@echo "... datastructure/linkedlist/26.i"
+	@echo "... datastructure/linkedlist/26.s"
 .PHONY : help
 
 
