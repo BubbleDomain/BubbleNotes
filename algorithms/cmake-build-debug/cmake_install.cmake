@@ -1,4 +1,4 @@
-# Install script for directory: /Users/yaohaohao/CLionProjects/BubblekingNotes/algorithms
+# Install script for directory: /Users/bilibili/Documents/学习/算法课程/workspace/algorithms
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/yaohaohao/CLionProjects/BubblekingNotes/algorithms/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/bilibili/Documents/学习/算法课程/workspace/algorithms/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
