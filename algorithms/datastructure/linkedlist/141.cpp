@@ -5,7 +5,7 @@ using namespace std;
 /**
  * @author: batteria
  * @version: 1.0
- * @since: 2020/12/10 4:22 下午
+ * @since: 2020/12/10
  * @description: 141.linked-list-cycle
  */
 struct ListNode {
