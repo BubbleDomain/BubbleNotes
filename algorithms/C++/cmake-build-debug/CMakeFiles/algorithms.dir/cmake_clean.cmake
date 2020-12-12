@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/algorithms.dir/datastructure/linkedlist/26.cpp.o"
+  "CMakeFiles/algorithms.dir/datastructure/array/1.cpp.o"
   "algorithms"
   "algorithms.pdb"
 )
