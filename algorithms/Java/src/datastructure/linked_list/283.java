@@ -1,4 +1,4 @@
-package LinkedList;
+package datastructure.linked_list;
 
 /**
  * @author: batteria
