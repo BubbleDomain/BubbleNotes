@@ -143,32 +143,32 @@ algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
-datastructure/array/1.o: datastructure/array/1.cpp.o
+datastructure/array/189.o: datastructure/array/189.cpp.o
 
-.PHONY : datastructure/array/1.o
+.PHONY : datastructure/array/189.o
 
 # target to build an object file
-datastructure/array/1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/array/1.cpp.o
-.PHONY : datastructure/array/1.cpp.o
+datastructure/array/189.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/array/189.cpp.o
+.PHONY : datastructure/array/189.cpp.o
 
-datastructure/array/1.i: datastructure/array/1.cpp.i
+datastructure/array/189.i: datastructure/array/189.cpp.i
 
-.PHONY : datastructure/array/1.i
+.PHONY : datastructure/array/189.i
 
 # target to preprocess a source file
-datastructure/array/1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/array/1.cpp.i
-.PHONY : datastructure/array/1.cpp.i
+datastructure/array/189.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/array/189.cpp.i
+.PHONY : datastructure/array/189.cpp.i
 
-datastructure/array/1.s: datastructure/array/1.cpp.s
+datastructure/array/189.s: datastructure/array/189.cpp.s
 
-.PHONY : datastructure/array/1.s
+.PHONY : datastructure/array/189.s
 
 # target to generate assembly for a file
-datastructure/array/1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/array/1.cpp.s
-.PHONY : datastructure/array/1.cpp.s
+datastructure/array/189.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/array/189.cpp.s
+.PHONY : datastructure/array/189.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... algorithms"
-	@echo "... datastructure/array/1.o"
-	@echo "... datastructure/array/1.i"
-	@echo "... datastructure/array/1.s"
+	@echo "... datastructure/array/189.o"
+	@echo "... datastructure/array/189.i"
+	@echo "... datastructure/array/189.s"
 .PHONY : help
 
 
