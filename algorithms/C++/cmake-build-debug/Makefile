@@ -123,32 +123,32 @@ algorithms/fast:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
-datastructure/array/88.o: datastructure/array/88.cpp.o
+datastructure/array/66.o: datastructure/array/66.cpp.o
 
-.PHONY : datastructure/array/88.o
+.PHONY : datastructure/array/66.o
 
 # target to build an object file
-datastructure/array/88.cpp.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/array/88.cpp.o
-.PHONY : datastructure/array/88.cpp.o
+datastructure/array/66.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/array/66.cpp.o
+.PHONY : datastructure/array/66.cpp.o
 
-datastructure/array/88.i: datastructure/array/88.cpp.i
+datastructure/array/66.i: datastructure/array/66.cpp.i
 
-.PHONY : datastructure/array/88.i
+.PHONY : datastructure/array/66.i
 
 # target to preprocess a source file
-datastructure/array/88.cpp.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/array/88.cpp.i
-.PHONY : datastructure/array/88.cpp.i
+datastructure/array/66.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/array/66.cpp.i
+.PHONY : datastructure/array/66.cpp.i
 
-datastructure/array/88.s: datastructure/array/88.cpp.s
+datastructure/array/66.s: datastructure/array/66.cpp.s
 
-.PHONY : datastructure/array/88.s
+.PHONY : datastructure/array/66.s
 
 # target to generate assembly for a file
-datastructure/array/88.cpp.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/array/88.cpp.s
-.PHONY : datastructure/array/88.cpp.s
+datastructure/array/66.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/array/66.cpp.s
+.PHONY : datastructure/array/66.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... algorithms"
-	@echo "... datastructure/array/88.o"
-	@echo "... datastructure/array/88.i"
-	@echo "... datastructure/array/88.s"
+	@echo "... datastructure/array/66.o"
+	@echo "... datastructure/array/66.i"
+	@echo "... datastructure/array/66.s"
 .PHONY : help
 
 
