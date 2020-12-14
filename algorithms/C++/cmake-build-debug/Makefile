@@ -123,32 +123,32 @@ algorithms/fast:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
-datastructure/array/66.o: datastructure/array/66.cpp.o
+datastructure/stack/20.o: datastructure/stack/20.cpp.o
 
-.PHONY : datastructure/array/66.o
+.PHONY : datastructure/stack/20.o
 
 # target to build an object file
-datastructure/array/66.cpp.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/array/66.cpp.o
-.PHONY : datastructure/array/66.cpp.o
+datastructure/stack/20.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/stack/20.cpp.o
+.PHONY : datastructure/stack/20.cpp.o
 
-datastructure/array/66.i: datastructure/array/66.cpp.i
+datastructure/stack/20.i: datastructure/stack/20.cpp.i
 
-.PHONY : datastructure/array/66.i
+.PHONY : datastructure/stack/20.i
 
 # target to preprocess a source file
-datastructure/array/66.cpp.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/array/66.cpp.i
-.PHONY : datastructure/array/66.cpp.i
+datastructure/stack/20.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/stack/20.cpp.i
+.PHONY : datastructure/stack/20.cpp.i
 
-datastructure/array/66.s: datastructure/array/66.cpp.s
+datastructure/stack/20.s: datastructure/stack/20.cpp.s
 
-.PHONY : datastructure/array/66.s
+.PHONY : datastructure/stack/20.s
 
 # target to generate assembly for a file
-datastructure/array/66.cpp.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/array/66.cpp.s
-.PHONY : datastructure/array/66.cpp.s
+datastructure/stack/20.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/stack/20.cpp.s
+.PHONY : datastructure/stack/20.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... algorithms"
-	@echo "... datastructure/array/66.o"
-	@echo "... datastructure/array/66.i"
-	@echo "... datastructure/array/66.s"
+	@echo "... datastructure/stack/20.o"
+	@echo "... datastructure/stack/20.i"
+	@echo "... datastructure/stack/20.s"
 .PHONY : help
 
 
