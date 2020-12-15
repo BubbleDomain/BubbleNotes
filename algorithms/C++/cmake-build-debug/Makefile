@@ -143,32 +143,32 @@ algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
-datastructure/deque/641.o: datastructure/deque/641.cpp.o
+datastructure/deque/42.o: datastructure/deque/42.cpp.o
 
-.PHONY : datastructure/deque/641.o
+.PHONY : datastructure/deque/42.o
 
 # target to build an object file
-datastructure/deque/641.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/deque/641.cpp.o
-.PHONY : datastructure/deque/641.cpp.o
+datastructure/deque/42.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/deque/42.cpp.o
+.PHONY : datastructure/deque/42.cpp.o
 
-datastructure/deque/641.i: datastructure/deque/641.cpp.i
+datastructure/deque/42.i: datastructure/deque/42.cpp.i
 
-.PHONY : datastructure/deque/641.i
+.PHONY : datastructure/deque/42.i
 
 # target to preprocess a source file
-datastructure/deque/641.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/deque/641.cpp.i
-.PHONY : datastructure/deque/641.cpp.i
+datastructure/deque/42.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/deque/42.cpp.i
+.PHONY : datastructure/deque/42.cpp.i
 
-datastructure/deque/641.s: datastructure/deque/641.cpp.s
+datastructure/deque/42.s: datastructure/deque/42.cpp.s
 
-.PHONY : datastructure/deque/641.s
+.PHONY : datastructure/deque/42.s
 
 # target to generate assembly for a file
-datastructure/deque/641.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/deque/641.cpp.s
-.PHONY : datastructure/deque/641.cpp.s
+datastructure/deque/42.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/deque/42.cpp.s
+.PHONY : datastructure/deque/42.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... algorithms"
-	@echo "... datastructure/deque/641.o"
-	@echo "... datastructure/deque/641.i"
-	@echo "... datastructure/deque/641.s"
+	@echo "... datastructure/deque/42.o"
+	@echo "... datastructure/deque/42.i"
+	@echo "... datastructure/deque/42.s"
 .PHONY : help
 
 
