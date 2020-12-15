@@ -123,32 +123,32 @@ algorithms/fast:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
-datastructure/stack/84.o: datastructure/stack/84.cpp.o
+datastructure/stack/239.o: datastructure/stack/239.cpp.o
 
-.PHONY : datastructure/stack/84.o
+.PHONY : datastructure/stack/239.o
 
 # target to build an object file
-datastructure/stack/84.cpp.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/stack/84.cpp.o
-.PHONY : datastructure/stack/84.cpp.o
+datastructure/stack/239.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/stack/239.cpp.o
+.PHONY : datastructure/stack/239.cpp.o
 
-datastructure/stack/84.i: datastructure/stack/84.cpp.i
+datastructure/stack/239.i: datastructure/stack/239.cpp.i
 
-.PHONY : datastructure/stack/84.i
+.PHONY : datastructure/stack/239.i
 
 # target to preprocess a source file
-datastructure/stack/84.cpp.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/stack/84.cpp.i
-.PHONY : datastructure/stack/84.cpp.i
+datastructure/stack/239.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/stack/239.cpp.i
+.PHONY : datastructure/stack/239.cpp.i
 
-datastructure/stack/84.s: datastructure/stack/84.cpp.s
+datastructure/stack/239.s: datastructure/stack/239.cpp.s
 
-.PHONY : datastructure/stack/84.s
+.PHONY : datastructure/stack/239.s
 
 # target to generate assembly for a file
-datastructure/stack/84.cpp.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/stack/84.cpp.s
-.PHONY : datastructure/stack/84.cpp.s
+datastructure/stack/239.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/stack/239.cpp.s
+.PHONY : datastructure/stack/239.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... algorithms"
-	@echo "... datastructure/stack/84.o"
-	@echo "... datastructure/stack/84.i"
-	@echo "... datastructure/stack/84.s"
+	@echo "... datastructure/stack/239.o"
+	@echo "... datastructure/stack/239.i"
+	@echo "... datastructure/stack/239.s"
 .PHONY : help
 
 
