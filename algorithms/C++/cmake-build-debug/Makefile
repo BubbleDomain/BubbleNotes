@@ -123,32 +123,32 @@ algorithms/fast:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
-datastructure/deque/42.o: datastructure/deque/42.cpp.o
+datastructure/hashmap/242.o: datastructure/hashmap/242.cpp.o
 
-.PHONY : datastructure/deque/42.o
+.PHONY : datastructure/hashmap/242.o
 
 # target to build an object file
-datastructure/deque/42.cpp.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/deque/42.cpp.o
-.PHONY : datastructure/deque/42.cpp.o
+datastructure/hashmap/242.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/hashmap/242.cpp.o
+.PHONY : datastructure/hashmap/242.cpp.o
 
-datastructure/deque/42.i: datastructure/deque/42.cpp.i
+datastructure/hashmap/242.i: datastructure/hashmap/242.cpp.i
 
-.PHONY : datastructure/deque/42.i
+.PHONY : datastructure/hashmap/242.i
 
 # target to preprocess a source file
-datastructure/deque/42.cpp.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/deque/42.cpp.i
-.PHONY : datastructure/deque/42.cpp.i
+datastructure/hashmap/242.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/hashmap/242.cpp.i
+.PHONY : datastructure/hashmap/242.cpp.i
 
-datastructure/deque/42.s: datastructure/deque/42.cpp.s
+datastructure/hashmap/242.s: datastructure/hashmap/242.cpp.s
 
-.PHONY : datastructure/deque/42.s
+.PHONY : datastructure/hashmap/242.s
 
 # target to generate assembly for a file
-datastructure/deque/42.cpp.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/deque/42.cpp.s
-.PHONY : datastructure/deque/42.cpp.s
+datastructure/hashmap/242.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/hashmap/242.cpp.s
+.PHONY : datastructure/hashmap/242.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... algorithms"
-	@echo "... datastructure/deque/42.o"
-	@echo "... datastructure/deque/42.i"
-	@echo "... datastructure/deque/42.s"
+	@echo "... datastructure/hashmap/242.o"
+	@echo "... datastructure/hashmap/242.i"
+	@echo "... datastructure/hashmap/242.s"
 .PHONY : help
 
 
