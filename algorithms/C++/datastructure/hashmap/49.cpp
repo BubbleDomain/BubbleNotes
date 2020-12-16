@@ -11,7 +11,7 @@ using namespace std;
  * @description: 49.group-anagrams
  *
  * **这道题主要学习最后两种方法的思路**
- *
+ * **注意最后的哈希表加速**
  */
 bool isSame(string a, string b) {
     if (a.size() != b.size()) return false;
@@ -92,7 +92,7 @@ vector<vector<string>> groupAnagrams2(vector<string>& strs) {
 
 // 方法一: 统计string中的字符转换成后面这样的字符串"a2b3c3"
 // 方法二: 对应每个小写字母找一个素数一一对应，然后全部乘起来，对比即可，这个思路更加数学
-vector<vector<string>> groupAnagrams(vector<string>& strs) {
+vector<vector<string>> groupAnagrams3(vector<string>& strs) {
     vector<string> r1;
     vector<vector<string>> r2;
     for (auto str : strs) {
@@ -114,6 +114,29 @@ vector<vector<string>> groupAnagrams(vector<string>& strs) {
         }
         if (flag) {
             r1.push_back(t);
+            r2.emplace_back(1, str);
+        }
+    }
+    return r2;
+}
+
+// 最后再结合哈希表加速，效果拔群
+vector<vector<string>> groupAnagrams(vector<string>& strs) {
+    unordered_map<string, int> M;
+    vector<vector<string>> r2;
+    for (auto str : strs) {
+        string t = "";
+        vector<int> v(26, 0);
+        for (char c : str) v[c - 'a']++;
+        for (int i = 0; i < 26; i++) {
+            if (v[i] == 0) continue;
+            t += i;
+            t += v[i];
+        }
+        if (M[t]) {
+            r2[M[t] - 1].push_back(str);
+        } else {
+            M[t] = r2.size() + 1;
             r2.emplace_back(1, str);
         }
     }
