@@ -1,6 +1,7 @@
 #include <iostream>
 #include <deque>
 #include <vector>
+#include <stack>
 
 using namespace std;
 
@@ -11,23 +12,22 @@ using namespace std;
  * @description: 42.trapping-rain-water
  */
 int trap(vector<int>& height) {
-    deque<int> d;
+    stack<int> d;
     int size = height.size(), sum = 0;
     for (int i = 0; i < size; i++) {
         if (height[i] == 0) continue;
-        if (!d.empty()) {
-            // 计算雨
-            while(!d.empty()) {
-                int temp = min(height[d.back()], height[i]);
-                sum += (temp * (i - d.back() - 1));
-                for (int j = d.back() + 1; j < i; j++) {
-                    sum -= height[j];
-                    height[j] = temp;
-                }
-                d.pop_back();
+        // 计算雨
+        while(!d.empty()) {
+            int temp = min(height[d.top()], height[i]);
+            sum += (temp * (i - d.top() - 1));
+            for (int j = d.top() + 1; j < i; j++) {
+                sum -= height[j];
+                height[j] = temp;
             }
+            if (height[i] >= height[d.top()]) d.pop();
+            else break;
         }
-        d.push_back(i);
+        d.push(i);
     }
     return sum;
 }
