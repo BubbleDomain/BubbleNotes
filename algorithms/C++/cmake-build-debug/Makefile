@@ -123,32 +123,32 @@ algorithms/fast:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
-datastructure/tree/94.o: datastructure/tree/94.cpp.o
+datastructure/tree/144.o: datastructure/tree/144.cpp.o
 
-.PHONY : datastructure/tree/94.o
+.PHONY : datastructure/tree/144.o
 
 # target to build an object file
-datastructure/tree/94.cpp.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/tree/94.cpp.o
-.PHONY : datastructure/tree/94.cpp.o
+datastructure/tree/144.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/tree/144.cpp.o
+.PHONY : datastructure/tree/144.cpp.o
 
-datastructure/tree/94.i: datastructure/tree/94.cpp.i
+datastructure/tree/144.i: datastructure/tree/144.cpp.i
 
-.PHONY : datastructure/tree/94.i
+.PHONY : datastructure/tree/144.i
 
 # target to preprocess a source file
-datastructure/tree/94.cpp.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/tree/94.cpp.i
-.PHONY : datastructure/tree/94.cpp.i
+datastructure/tree/144.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/tree/144.cpp.i
+.PHONY : datastructure/tree/144.cpp.i
 
-datastructure/tree/94.s: datastructure/tree/94.cpp.s
+datastructure/tree/144.s: datastructure/tree/144.cpp.s
 
-.PHONY : datastructure/tree/94.s
+.PHONY : datastructure/tree/144.s
 
 # target to generate assembly for a file
-datastructure/tree/94.cpp.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/tree/94.cpp.s
-.PHONY : datastructure/tree/94.cpp.s
+datastructure/tree/144.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/tree/144.cpp.s
+.PHONY : datastructure/tree/144.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... algorithms"
-	@echo "... datastructure/tree/94.o"
-	@echo "... datastructure/tree/94.i"
-	@echo "... datastructure/tree/94.s"
+	@echo "... datastructure/tree/144.o"
+	@echo "... datastructure/tree/144.i"
+	@echo "... datastructure/tree/144.s"
 .PHONY : help
 
 
