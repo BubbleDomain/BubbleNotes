@@ -46,13 +46,16 @@ vector<int> postorder1(Node* root) {
 vector<int> postorder(Node* root) {
     vector<int> r;
     stack<Node*> s;
-    if (root == NULL) r;
-    while(!s.empty() || root != NULL) {
-        while(root->children.size() > 0) {
-            r.push_back(root);
-            root = root
-        }
+    int currentI = 0;
+    if (root == NULL) return r;
+    s.push(root);
+    while(!s.empty()) {
+        auto top = s.top();
+        s.pop();
+        r.push_back(top->val);
+        for (auto i : top->children) s.push(i);
     }
+    reverse(r.begin(), r.end());
     return r;
 }
 

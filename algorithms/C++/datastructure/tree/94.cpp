@@ -23,6 +23,7 @@ struct TreeNode {
 };
 
 // 非递归解法 思路有点过于复杂了下面有简化版 但这是这几个里面速度最快的
+// 其实这个思路也是有用的，在k树中会用到
 vector<int> inorderTraversal1(TreeNode* root) {
     stack<TreeNode*> S;
     unordered_set<TreeNode*> t;
