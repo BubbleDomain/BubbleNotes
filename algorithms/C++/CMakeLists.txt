@@ -3,4 +3,4 @@ project(algorithms)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(algorithms datastructure/hashmap/49.cpp)
+add_executable(algorithms datastructure/tree/94.cpp)
