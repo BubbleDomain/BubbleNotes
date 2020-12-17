@@ -41,14 +41,16 @@ vector<int> postorder1(Node* root) {
     return r;
 }
 
+// 非递归法较难想到
+// 考虑到后序遍历其实等价于【翻转树的先序遍历倒置】
 vector<int> postorder(Node* root) {
     vector<int> r;
     stack<Node*> s;
     if (root == NULL) r;
     while(!s.empty() || root != NULL) {
-        while(root->children.size() == 0) {
+        while(root->children.size() > 0) {
             r.push_back(root);
-            root =
+            root = root
         }
     }
     return r;
