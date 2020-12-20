@@ -143,32 +143,32 @@ algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
-datastructure/tree/429.o: datastructure/tree/429.cpp.o
+algorithm/recursion/22.o: algorithm/recursion/22.cpp.o
 
-.PHONY : datastructure/tree/429.o
+.PHONY : algorithm/recursion/22.o
 
 # target to build an object file
-datastructure/tree/429.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/tree/429.cpp.o
-.PHONY : datastructure/tree/429.cpp.o
+algorithm/recursion/22.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/recursion/22.cpp.o
+.PHONY : algorithm/recursion/22.cpp.o
 
-datastructure/tree/429.i: datastructure/tree/429.cpp.i
+algorithm/recursion/22.i: algorithm/recursion/22.cpp.i
 
-.PHONY : datastructure/tree/429.i
+.PHONY : algorithm/recursion/22.i
 
 # target to preprocess a source file
-datastructure/tree/429.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/tree/429.cpp.i
-.PHONY : datastructure/tree/429.cpp.i
+algorithm/recursion/22.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/recursion/22.cpp.i
+.PHONY : algorithm/recursion/22.cpp.i
 
-datastructure/tree/429.s: datastructure/tree/429.cpp.s
+algorithm/recursion/22.s: algorithm/recursion/22.cpp.s
 
-.PHONY : datastructure/tree/429.s
+.PHONY : algorithm/recursion/22.s
 
 # target to generate assembly for a file
-datastructure/tree/429.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/tree/429.cpp.s
-.PHONY : datastructure/tree/429.cpp.s
+algorithm/recursion/22.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/recursion/22.cpp.s
+.PHONY : algorithm/recursion/22.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... algorithms"
-	@echo "... datastructure/tree/429.o"
-	@echo "... datastructure/tree/429.i"
-	@echo "... datastructure/tree/429.s"
+	@echo "... algorithm/recursion/22.o"
+	@echo "... algorithm/recursion/22.i"
+	@echo "... algorithm/recursion/22.s"
 .PHONY : help
 
 
