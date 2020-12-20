@@ -143,32 +143,32 @@ algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
-weekly/220_2.o: weekly/220_2.cpp.o
+algorithm/recursion/226.o: algorithm/recursion/226.cpp.o
 
-.PHONY : weekly/220_2.o
+.PHONY : algorithm/recursion/226.o
 
 # target to build an object file
-weekly/220_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/weekly/220_2.cpp.o
-.PHONY : weekly/220_2.cpp.o
+algorithm/recursion/226.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/recursion/226.cpp.o
+.PHONY : algorithm/recursion/226.cpp.o
 
-weekly/220_2.i: weekly/220_2.cpp.i
+algorithm/recursion/226.i: algorithm/recursion/226.cpp.i
 
-.PHONY : weekly/220_2.i
+.PHONY : algorithm/recursion/226.i
 
 # target to preprocess a source file
-weekly/220_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/weekly/220_2.cpp.i
-.PHONY : weekly/220_2.cpp.i
+algorithm/recursion/226.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/recursion/226.cpp.i
+.PHONY : algorithm/recursion/226.cpp.i
 
-weekly/220_2.s: weekly/220_2.cpp.s
+algorithm/recursion/226.s: algorithm/recursion/226.cpp.s
 
-.PHONY : weekly/220_2.s
+.PHONY : algorithm/recursion/226.s
 
 # target to generate assembly for a file
-weekly/220_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/weekly/220_2.cpp.s
-.PHONY : weekly/220_2.cpp.s
+algorithm/recursion/226.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/recursion/226.cpp.s
+.PHONY : algorithm/recursion/226.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... algorithms"
-	@echo "... weekly/220_2.o"
-	@echo "... weekly/220_2.i"
-	@echo "... weekly/220_2.s"
+	@echo "... algorithm/recursion/226.o"
+	@echo "... algorithm/recursion/226.i"
+	@echo "... algorithm/recursion/226.s"
 .PHONY : help
 
 
