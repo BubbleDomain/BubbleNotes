@@ -143,32 +143,32 @@ algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
-algorithm/recursion/22.o: algorithm/recursion/22.cpp.o
+weekly/220_2.o: weekly/220_2.cpp.o
 
-.PHONY : algorithm/recursion/22.o
+.PHONY : weekly/220_2.o
 
 # target to build an object file
-algorithm/recursion/22.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/recursion/22.cpp.o
-.PHONY : algorithm/recursion/22.cpp.o
+weekly/220_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/weekly/220_2.cpp.o
+.PHONY : weekly/220_2.cpp.o
 
-algorithm/recursion/22.i: algorithm/recursion/22.cpp.i
+weekly/220_2.i: weekly/220_2.cpp.i
 
-.PHONY : algorithm/recursion/22.i
+.PHONY : weekly/220_2.i
 
 # target to preprocess a source file
-algorithm/recursion/22.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/recursion/22.cpp.i
-.PHONY : algorithm/recursion/22.cpp.i
+weekly/220_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/weekly/220_2.cpp.i
+.PHONY : weekly/220_2.cpp.i
 
-algorithm/recursion/22.s: algorithm/recursion/22.cpp.s
+weekly/220_2.s: weekly/220_2.cpp.s
 
-.PHONY : algorithm/recursion/22.s
+.PHONY : weekly/220_2.s
 
 # target to generate assembly for a file
-algorithm/recursion/22.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/recursion/22.cpp.s
-.PHONY : algorithm/recursion/22.cpp.s
+weekly/220_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/weekly/220_2.cpp.s
+.PHONY : weekly/220_2.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... algorithms"
-	@echo "... algorithm/recursion/22.o"
-	@echo "... algorithm/recursion/22.i"
-	@echo "... algorithm/recursion/22.s"
+	@echo "... weekly/220_2.o"
+	@echo "... weekly/220_2.i"
+	@echo "... weekly/220_2.s"
 .PHONY : help
 
 
