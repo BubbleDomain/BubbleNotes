@@ -30,10 +30,43 @@ void recurse(vector<int>& nums, int i, int length, vector<int> t) {
     }
 }
 
-vector<vector<int>> permute(vector<int>& nums) {
+vector<vector<int>> permute1(vector<int>& nums) {
     recurse(nums, 0, nums.size(), {});
     return ans;
 }
+
+void DFS(vector<int>& nums, int level, vector<vector<int>>& ans)
+{
+    if (level == nums.size() - 1)
+    {
+        ans.push_back(nums);
+        return;
+    }
+
+    for (int i = level; i < nums.size(); i++)
+    {
+        swap(nums[level], nums[i]);
+        DFS(nums, level + 1, ans);
+        swap(nums[level], nums[i]);
+    }
+}
+
+// 理解方法二
+vector<vector<int>> permute(vector<int>& nums) {
+    if (nums.empty())
+    {
+        return {};
+    }
+
+    vector<vector<int>> ans;
+
+    DFS(nums, 0, ans);
+
+    return ans;
+}
+
+
+
 
 int main() {
     int a[] = {1,2,3};
