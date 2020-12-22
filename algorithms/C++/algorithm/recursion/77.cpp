@@ -14,20 +14,20 @@ using namespace std;
  */
 vector<vector<int>> ans;
 
-void recurse(int i, int n, int k, vector<int> t) {
+void recurse(int i, int j, int n, int k, vector<int> t) {
     if (i > k) {
         ans.push_back(t);
         return;
     }
-    for (int j = i; j <= n; j++) {
+    for (; j <= n; j++) {
         vector<int> temp(t);
         temp.push_back(j);
-        recurse(j + 1, n, k, temp);
+        recurse(i + 1, j + 1, n, k, temp);
     }
 }
 
 vector<vector<int>> combine(int n, int k) {
-    recurse(1, n, k, vector<int>());
+    recurse(1, 1, n, k, vector<int>());
     return ans;
 }
 
