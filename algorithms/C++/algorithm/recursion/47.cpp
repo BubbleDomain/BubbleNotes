@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <stack>
 #include <unordered_set>
 
 using namespace std;
@@ -12,25 +13,25 @@ using namespace std;
  *
  * 回溯搜索
  * 1、下面使用交换的思路解答，减枝不够彻底，最后还是要hash去重
- * 2、todo: 还能更快，使用老方法尝试
+ * 2、使用老方法尝试，速度没上面快
  *
  */
-vector<vector<int>> ans;
+vector<vector<int>> ans1;
 // 利用之前学习到的去重技巧
-unordered_set<string> HS;
+unordered_set<string> HS1;
 
-string convert(vector<int> &nums) {
+string convert1(vector<int> &nums) {
     string t;
     for (int i : nums) t += i;
     return t;
 }
 
-void recurse(vector<int> &nums, int i, int l) {
+void recurse1(vector<int> &nums, int i, int l) {
     if (i == nums.size()) {
-        string t = convert(nums);
-        if (HS.find(t) == HS.end()) {
-            ans.emplace_back(nums);
-            HS.insert(t);
+        string t = convert1(nums);
+        if (HS1.find(t) == HS1.end()) {
+            ans1.emplace_back(nums);
+            HS1.insert(t);
         }
         return;
     }
@@ -39,13 +40,39 @@ void recurse(vector<int> &nums, int i, int l) {
         // 减枝优化
         if (i != j && nums[i] == nums[j]) continue;
         swap(nums[i], nums[j]);
-        recurse(nums, i + 1, l);
+        recurse1(nums, i + 1, l);
         swap(nums[i], nums[j]);
     }
 }
 
+vector<vector<int>> permuteUnique1(vector<int> &nums) {
+    recurse1(nums, 0, nums.size());
+    return ans1;
+}
+
+vector<vector<int>> ans;
+
+void recurse(vector<int> &nums, vector<int> &state, int i, int l, vector<int> t) {
+    if (i >= l) {
+        ans.push_back(t);
+        return;
+    }
+    unordered_set<int> S;
+    for (int j = 0; j < l; j++) {
+        if (state[j] || S.find(nums[j]) != S.end()) continue;
+        S.insert(nums[j]);
+        t.push_back(nums[j]);
+        state[j] = true;
+        recurse(nums, state, i + 1, l, t);
+        t.pop_back();
+        state[j] = false;
+    }
+}
+
 vector<vector<int>> permuteUnique(vector<int> &nums) {
-    recurse(nums, 0, nums.size());
+    int size = nums.size();
+    vector<int> t(size, false);
+    recurse(nums, t, 0, size, {});
     return ans;
 }
 
