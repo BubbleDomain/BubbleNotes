@@ -143,86 +143,32 @@ algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
-algorithm/recursion_division_recall/169.o: algorithm/recursion_division_recall/169.cpp.o
+weekly/42_3.o: weekly/42_3.cpp.o
 
-.PHONY : algorithm/recursion_division_recall/169.o
-
-# target to build an object file
-algorithm/recursion_division_recall/169.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/recursion_division_recall/169.cpp.o
-.PHONY : algorithm/recursion_division_recall/169.cpp.o
-
-algorithm/recursion_division_recall/169.i: algorithm/recursion_division_recall/169.cpp.i
-
-.PHONY : algorithm/recursion_division_recall/169.i
-
-# target to preprocess a source file
-algorithm/recursion_division_recall/169.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/recursion_division_recall/169.cpp.i
-.PHONY : algorithm/recursion_division_recall/169.cpp.i
-
-algorithm/recursion_division_recall/169.s: algorithm/recursion_division_recall/169.cpp.s
-
-.PHONY : algorithm/recursion_division_recall/169.s
-
-# target to generate assembly for a file
-algorithm/recursion_division_recall/169.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/recursion_division_recall/169.cpp.s
-.PHONY : algorithm/recursion_division_recall/169.cpp.s
-
-algorithm/recursion_division_recall/17.o: algorithm/recursion_division_recall/17.cpp.o
-
-.PHONY : algorithm/recursion_division_recall/17.o
+.PHONY : weekly/42_3.o
 
 # target to build an object file
-algorithm/recursion_division_recall/17.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/recursion_division_recall/17.cpp.o
-.PHONY : algorithm/recursion_division_recall/17.cpp.o
+weekly/42_3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/weekly/42_3.cpp.o
+.PHONY : weekly/42_3.cpp.o
 
-algorithm/recursion_division_recall/17.i: algorithm/recursion_division_recall/17.cpp.i
+weekly/42_3.i: weekly/42_3.cpp.i
 
-.PHONY : algorithm/recursion_division_recall/17.i
-
-# target to preprocess a source file
-algorithm/recursion_division_recall/17.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/recursion_division_recall/17.cpp.i
-.PHONY : algorithm/recursion_division_recall/17.cpp.i
-
-algorithm/recursion_division_recall/17.s: algorithm/recursion_division_recall/17.cpp.s
-
-.PHONY : algorithm/recursion_division_recall/17.s
-
-# target to generate assembly for a file
-algorithm/recursion_division_recall/17.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/recursion_division_recall/17.cpp.s
-.PHONY : algorithm/recursion_division_recall/17.cpp.s
-
-algorithm/recursion_division_recall/78.o: algorithm/recursion_division_recall/78.cpp.o
-
-.PHONY : algorithm/recursion_division_recall/78.o
-
-# target to build an object file
-algorithm/recursion_division_recall/78.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/recursion_division_recall/78.cpp.o
-.PHONY : algorithm/recursion_division_recall/78.cpp.o
-
-algorithm/recursion_division_recall/78.i: algorithm/recursion_division_recall/78.cpp.i
-
-.PHONY : algorithm/recursion_division_recall/78.i
+.PHONY : weekly/42_3.i
 
 # target to preprocess a source file
-algorithm/recursion_division_recall/78.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/recursion_division_recall/78.cpp.i
-.PHONY : algorithm/recursion_division_recall/78.cpp.i
+weekly/42_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/weekly/42_3.cpp.i
+.PHONY : weekly/42_3.cpp.i
 
-algorithm/recursion_division_recall/78.s: algorithm/recursion_division_recall/78.cpp.s
+weekly/42_3.s: weekly/42_3.cpp.s
 
-.PHONY : algorithm/recursion_division_recall/78.s
+.PHONY : weekly/42_3.s
 
 # target to generate assembly for a file
-algorithm/recursion_division_recall/78.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/recursion_division_recall/78.cpp.s
-.PHONY : algorithm/recursion_division_recall/78.cpp.s
+weekly/42_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/weekly/42_3.cpp.s
+.PHONY : weekly/42_3.cpp.s
 
 # Help Target
 help:
@@ -233,15 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... algorithms"
-	@echo "... algorithm/recursion_division_recall/169.o"
-	@echo "... algorithm/recursion_division_recall/169.i"
-	@echo "... algorithm/recursion_division_recall/169.s"
-	@echo "... algorithm/recursion_division_recall/17.o"
-	@echo "... algorithm/recursion_division_recall/17.i"
-	@echo "... algorithm/recursion_division_recall/17.s"
-	@echo "... algorithm/recursion_division_recall/78.o"
-	@echo "... algorithm/recursion_division_recall/78.i"
-	@echo "... algorithm/recursion_division_recall/78.s"
+	@echo "... weekly/42_3.o"
+	@echo "... weekly/42_3.i"
+	@echo "... weekly/42_3.s"
 .PHONY : help
 
 
