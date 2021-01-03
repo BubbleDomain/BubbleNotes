@@ -143,32 +143,32 @@ algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
-weekly/221_2.o: weekly/221_2.cpp.o
+weekly/222_2.o: weekly/222_2.cpp.o
 
-.PHONY : weekly/221_2.o
+.PHONY : weekly/222_2.o
 
 # target to build an object file
-weekly/221_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/weekly/221_2.cpp.o
-.PHONY : weekly/221_2.cpp.o
+weekly/222_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/weekly/222_2.cpp.o
+.PHONY : weekly/222_2.cpp.o
 
-weekly/221_2.i: weekly/221_2.cpp.i
+weekly/222_2.i: weekly/222_2.cpp.i
 
-.PHONY : weekly/221_2.i
+.PHONY : weekly/222_2.i
 
 # target to preprocess a source file
-weekly/221_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/weekly/221_2.cpp.i
-.PHONY : weekly/221_2.cpp.i
+weekly/222_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/weekly/222_2.cpp.i
+.PHONY : weekly/222_2.cpp.i
 
-weekly/221_2.s: weekly/221_2.cpp.s
+weekly/222_2.s: weekly/222_2.cpp.s
 
-.PHONY : weekly/221_2.s
+.PHONY : weekly/222_2.s
 
 # target to generate assembly for a file
-weekly/221_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/weekly/221_2.cpp.s
-.PHONY : weekly/221_2.cpp.s
+weekly/222_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/weekly/222_2.cpp.s
+.PHONY : weekly/222_2.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... algorithms"
-	@echo "... weekly/221_2.o"
-	@echo "... weekly/221_2.i"
-	@echo "... weekly/221_2.s"
+	@echo "... weekly/222_2.o"
+	@echo "... weekly/222_2.i"
+	@echo "... weekly/222_2.s"
 .PHONY : help
 
 
