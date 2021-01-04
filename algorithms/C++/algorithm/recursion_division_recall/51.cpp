@@ -16,7 +16,7 @@ using namespace std;
 // 方法一：递归回溯
 vector<vector<string>> ans;
 
-void recurse(vector<int> &states, int level, int n) {
+void recurse1(vector<int> &states, int level, int n) {
     if (level == n) {
         vector<string> temp;
         for (int i = 0; i < n; i++) {
@@ -44,14 +44,45 @@ void recurse(vector<int> &states, int level, int n) {
     for (int i = 0; i < n; i++) {
         if (inValid.find(i) != inValid.end()) continue;
         states.push_back(i);
-        recurse(states, level + 1, n);
+        recurse1(states, level + 1, n);
+        states.pop_back();
+    }
+}
+
+// 优化思路，转化结构
+void recurse(vector<int> &states, vector<int> &last, int level, int n) {
+    if (level == n) {
+        vector<string> temp;
+        for (int i = 0; i < n; i++) {
+            string s;
+            for (int j = 0; j < n; j++) {
+                s += (j == states[i] ? 'Q' : '.');
+            }
+            temp.push_back(s);
+        }
+        ans.push_back(temp);
+        return;
+    }
+
+    for (int i = 0; i < n; i++) {
+        if (last[i]) continue;
+        states.push_back(i);
+        // 判断当前行有那些位置可以落子
+        unordered_set<int> inValid;
+        auto temp = last;
+        last[i] = 1;
+        if (i + 1 < n) last[i + 1] = 1;
+        if (i - 1 >= 0) last[i - 1] = 1;
+        recurse(states, last, level + 1, n);
+        last = temp;
         states.pop_back();
     }
 }
 
 vector<vector<string>> solveNQueens(int n) {
     vector<int> state;
-    recurse(state, 0, n);
+    vector<int> last(n, 0);
+    recurse(state, last, 0, n);
     return ans;
 }
 

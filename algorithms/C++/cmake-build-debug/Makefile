@@ -123,32 +123,32 @@ algorithms/fast:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
-algorithm/recursion_division_recall/51.o: algorithm/recursion_division_recall/51.cpp.o
+algorithm/dfs_bfs/102.o: algorithm/dfs_bfs/102.cpp.o
 
-.PHONY : algorithm/recursion_division_recall/51.o
+.PHONY : algorithm/dfs_bfs/102.o
 
 # target to build an object file
-algorithm/recursion_division_recall/51.cpp.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/recursion_division_recall/51.cpp.o
-.PHONY : algorithm/recursion_division_recall/51.cpp.o
+algorithm/dfs_bfs/102.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/dfs_bfs/102.cpp.o
+.PHONY : algorithm/dfs_bfs/102.cpp.o
 
-algorithm/recursion_division_recall/51.i: algorithm/recursion_division_recall/51.cpp.i
+algorithm/dfs_bfs/102.i: algorithm/dfs_bfs/102.cpp.i
 
-.PHONY : algorithm/recursion_division_recall/51.i
+.PHONY : algorithm/dfs_bfs/102.i
 
 # target to preprocess a source file
-algorithm/recursion_division_recall/51.cpp.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/recursion_division_recall/51.cpp.i
-.PHONY : algorithm/recursion_division_recall/51.cpp.i
+algorithm/dfs_bfs/102.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/dfs_bfs/102.cpp.i
+.PHONY : algorithm/dfs_bfs/102.cpp.i
 
-algorithm/recursion_division_recall/51.s: algorithm/recursion_division_recall/51.cpp.s
+algorithm/dfs_bfs/102.s: algorithm/dfs_bfs/102.cpp.s
 
-.PHONY : algorithm/recursion_division_recall/51.s
+.PHONY : algorithm/dfs_bfs/102.s
 
 # target to generate assembly for a file
-algorithm/recursion_division_recall/51.cpp.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/recursion_division_recall/51.cpp.s
-.PHONY : algorithm/recursion_division_recall/51.cpp.s
+algorithm/dfs_bfs/102.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/dfs_bfs/102.cpp.s
+.PHONY : algorithm/dfs_bfs/102.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... algorithms"
-	@echo "... algorithm/recursion_division_recall/51.o"
-	@echo "... algorithm/recursion_division_recall/51.i"
-	@echo "... algorithm/recursion_division_recall/51.s"
+	@echo "... algorithm/dfs_bfs/102.o"
+	@echo "... algorithm/dfs_bfs/102.i"
+	@echo "... algorithm/dfs_bfs/102.s"
 .PHONY : help
 
 
