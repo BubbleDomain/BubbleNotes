@@ -3,4 +3,4 @@ project(algorithms)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(algorithms weekly/222_2.cpp)
+add_executable(algorithms algorithm/recursion_division_recall/17.cpp)
