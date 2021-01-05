@@ -123,59 +123,32 @@ algorithms/fast:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
-algorithm/dfs_bfs/433.o: algorithm/dfs_bfs/433.cpp.o
+algorithm/dfs_bfs/127.o: algorithm/dfs_bfs/127.cpp.o
 
-.PHONY : algorithm/dfs_bfs/433.o
-
-# target to build an object file
-algorithm/dfs_bfs/433.cpp.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/dfs_bfs/433.cpp.o
-.PHONY : algorithm/dfs_bfs/433.cpp.o
-
-algorithm/dfs_bfs/433.i: algorithm/dfs_bfs/433.cpp.i
-
-.PHONY : algorithm/dfs_bfs/433.i
-
-# target to preprocess a source file
-algorithm/dfs_bfs/433.cpp.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/dfs_bfs/433.cpp.i
-.PHONY : algorithm/dfs_bfs/433.cpp.i
-
-algorithm/dfs_bfs/433.s: algorithm/dfs_bfs/433.cpp.s
-
-.PHONY : algorithm/dfs_bfs/433.s
-
-# target to generate assembly for a file
-algorithm/dfs_bfs/433.cpp.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/dfs_bfs/433.cpp.s
-.PHONY : algorithm/dfs_bfs/433.cpp.s
-
-algorithm/dfs_bfs/515.o: algorithm/dfs_bfs/515.cpp.o
-
-.PHONY : algorithm/dfs_bfs/515.o
+.PHONY : algorithm/dfs_bfs/127.o
 
 # target to build an object file
-algorithm/dfs_bfs/515.cpp.o:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/dfs_bfs/515.cpp.o
-.PHONY : algorithm/dfs_bfs/515.cpp.o
+algorithm/dfs_bfs/127.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/dfs_bfs/127.cpp.o
+.PHONY : algorithm/dfs_bfs/127.cpp.o
 
-algorithm/dfs_bfs/515.i: algorithm/dfs_bfs/515.cpp.i
+algorithm/dfs_bfs/127.i: algorithm/dfs_bfs/127.cpp.i
 
-.PHONY : algorithm/dfs_bfs/515.i
+.PHONY : algorithm/dfs_bfs/127.i
 
 # target to preprocess a source file
-algorithm/dfs_bfs/515.cpp.i:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/dfs_bfs/515.cpp.i
-.PHONY : algorithm/dfs_bfs/515.cpp.i
+algorithm/dfs_bfs/127.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/dfs_bfs/127.cpp.i
+.PHONY : algorithm/dfs_bfs/127.cpp.i
 
-algorithm/dfs_bfs/515.s: algorithm/dfs_bfs/515.cpp.s
+algorithm/dfs_bfs/127.s: algorithm/dfs_bfs/127.cpp.s
 
-.PHONY : algorithm/dfs_bfs/515.s
+.PHONY : algorithm/dfs_bfs/127.s
 
 # target to generate assembly for a file
-algorithm/dfs_bfs/515.cpp.s:
-	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/dfs_bfs/515.cpp.s
-.PHONY : algorithm/dfs_bfs/515.cpp.s
+algorithm/dfs_bfs/127.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/dfs_bfs/127.cpp.s
+.PHONY : algorithm/dfs_bfs/127.cpp.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... algorithms"
-	@echo "... algorithm/dfs_bfs/433.o"
-	@echo "... algorithm/dfs_bfs/433.i"
-	@echo "... algorithm/dfs_bfs/433.s"
-	@echo "... algorithm/dfs_bfs/515.o"
-	@echo "... algorithm/dfs_bfs/515.i"
-	@echo "... algorithm/dfs_bfs/515.s"
+	@echo "... algorithm/dfs_bfs/127.o"
+	@echo "... algorithm/dfs_bfs/127.i"
+	@echo "... algorithm/dfs_bfs/127.s"
 .PHONY : help
 
 
