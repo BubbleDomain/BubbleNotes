@@ -9,8 +9,8 @@ using namespace std;
 /**
  * @author: batteria
  * @version: 1.0
- * @since: 2021/1/4
- * @description: 102.binary-tree-level-order-traversal
+ * @since: 2021/1/5
+ * @description: 515.find-largest-value-in-each-tree-row
  */
 struct TreeNode {
     int val;
@@ -21,27 +21,26 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-vector<vector<int>> levelOrder(TreeNode* root) {
-    vector<vector<int>> ans;
+vector<int> largestValues(TreeNode *root) {
+    vector<int> ans;
     if (root == NULL) return ans;
-    queue<TreeNode*> Q;
+    queue<TreeNode *> Q;
     Q.push(root);
-    TreeNode* temp = root;
+    TreeNode *end = root;
+    int temp = INT32_MIN;
     while (!Q.empty()) {
-        vector<int> t;
-        TreeNode* i = Q.front();
-        while(true) {
-            t.push_back(i->val);
+        auto front = Q.front();
+        while (true) {
+            temp = max(temp, front->val);
             Q.pop();
-            if (NULL != i->left) Q.push(i->left);
-            if (NULL != i->right) Q.push(i->right);
-            if (i == temp) {
-                temp = Q.back();
-                break;
-            }
-            i = Q.front();
+            if (front->left != NULL)Q.push(front->left);
+            if (front->right != NULL)Q.push(front->right);
+            if (front == end) break;
+            front = Q.front();
         }
-        ans.push_back(t);
+        end = Q.back();
+        ans.push_back(temp);
+        temp = INT32_MIN;
     }
     return ans;
 }

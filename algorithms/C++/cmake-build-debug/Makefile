@@ -150,6 +150,33 @@ algorithm/dfs_bfs/433.cpp.s:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/dfs_bfs/433.cpp.s
 .PHONY : algorithm/dfs_bfs/433.cpp.s
 
+algorithm/dfs_bfs/515.o: algorithm/dfs_bfs/515.cpp.o
+
+.PHONY : algorithm/dfs_bfs/515.o
+
+# target to build an object file
+algorithm/dfs_bfs/515.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/dfs_bfs/515.cpp.o
+.PHONY : algorithm/dfs_bfs/515.cpp.o
+
+algorithm/dfs_bfs/515.i: algorithm/dfs_bfs/515.cpp.i
+
+.PHONY : algorithm/dfs_bfs/515.i
+
+# target to preprocess a source file
+algorithm/dfs_bfs/515.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/dfs_bfs/515.cpp.i
+.PHONY : algorithm/dfs_bfs/515.cpp.i
+
+algorithm/dfs_bfs/515.s: algorithm/dfs_bfs/515.cpp.s
+
+.PHONY : algorithm/dfs_bfs/515.s
+
+# target to generate assembly for a file
+algorithm/dfs_bfs/515.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/dfs_bfs/515.cpp.s
+.PHONY : algorithm/dfs_bfs/515.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... algorithm/dfs_bfs/433.o"
 	@echo "... algorithm/dfs_bfs/433.i"
 	@echo "... algorithm/dfs_bfs/433.s"
+	@echo "... algorithm/dfs_bfs/515.o"
+	@echo "... algorithm/dfs_bfs/515.i"
+	@echo "... algorithm/dfs_bfs/515.s"
 .PHONY : help
 
 
