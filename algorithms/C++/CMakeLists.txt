@@ -3,4 +3,4 @@ project(algorithms)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(algorithms algorithm/dfs_bfs/126.cpp)
+add_executable(algorithms algorithm/dfs_bfs/200.cpp)
