@@ -13,7 +13,9 @@ using namespace std;
  * @since: 2021/1/20
  * @description: 200.number-of-islands
  *
- * !!!!标记数选用也会导致答案的误差
+ * !!!!标记数选用也会导致答案的误差 ascii char表示有负数！！
+ *
+ * 方法二：沉岛法
  */
 int numIslands(vector<vector<char>>& grid) {
     int ans = 0, size = grid.size();
