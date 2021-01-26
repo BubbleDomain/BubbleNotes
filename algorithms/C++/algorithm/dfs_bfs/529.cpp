@@ -3,6 +3,7 @@
 #include <queue>
 #include <deque>
 #include <cmath>
+#include <unordered_set>
 
 using namespace std;
 
@@ -11,6 +12,9 @@ using namespace std;
  * @version: 1.0
  * @since: 2021/1/22
  * @description: 529.minesweeper
+ *
+ * 可以剪枝，深度优先会出现重复分支
+ * visited 哈希表
  */
 int mineNum(vector<vector<char>>& board, vector<int> click) {
     int ans = 0;
@@ -26,8 +30,6 @@ int mineNum(vector<vector<char>>& board, vector<int> click) {
 }
 
 void update(vector<vector<char>>& board, vector<int> click) {
-    if (click[0] < 0 || click[0] >= board.size()
-        || click[1] < 0 || click[1] >= board[0].size()) return;
     char c = board[click[0]][click[1]];
     if (c != 'E') return;
     int mNum = mineNum(board, click);
