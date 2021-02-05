@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="26dp"
+    android:layout_height="30dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.bilibili.lib.image.drawee.StaticImageView
+        android:id="@+id/avatar"
+        style="@style/Widget.App.ImageView.Circle.Avatar"
+        android:layout_marginTop="5.3dp"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        app:roundingBorderWidth="0dp"
+        app:placeholderImage="@drawable/ic_noface"
+        app:thumbHeight="22dp"
+        app:thumbWidth="22dp" />
+    <View
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="5.3dp"
+        android:id="@+id/avatar_border"
+        />
+    <ImageView
+        android:layout_width="13dp"
+        android:layout_height="11dp"
+        android:src="@drawable/ic_live_crown"
+        android:scaleType="fitCenter"
+        android:visibility="gone"
+        android:id="@+id/crown_indicator"
+        android:layout_gravity="right"
+        />
+    <com.bilibili.bililive.biz.uicommon.pk.assist.NumberIndicatorView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:text="1"
+        android:textSize="7sp"
+        android:id="@+id/seq"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="6dp"
+        android:gravity="start"
+        />
+</FrameLayout>

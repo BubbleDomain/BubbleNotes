@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="52dp"
+    android:orientation="vertical">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="2dp"
+        android:layout_gravity="bottom"/>
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:alpha="0"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/fl_avatar"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="bottom"
+            android:background="@android:color/transparent">
+
+            <com.bilibili.lib.ui.CircleImageView
+                android:id="@+id/avatar"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                app:actualImageScaleType="fitCenter"
+                app:placeholderImage="@drawable/live_transparent_img_placeholder"
+                app:placeholderImageScaleType="centerInside"/>
+
+            <ImageView
+                android:id="@+id/avatar_frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:visibility="gone"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_name"
+            android:layout_width="76dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp"
+            android:gravity="bottom"
+            android:paddingBottom="6dp">
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textSize="13dp"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/gift_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="10dp"
+                android:textColor="@android:color/darker_gray"/>
+        </LinearLayout>
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/gift_gif"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:padding="5dp"/>
+    </LinearLayout>
+</merge>
