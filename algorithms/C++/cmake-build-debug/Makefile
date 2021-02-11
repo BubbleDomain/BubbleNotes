@@ -143,32 +143,32 @@ algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
-algorithm/greedy/874.o: algorithm/greedy/874.cpp.o
+algorithm/greedy/55.o: algorithm/greedy/55.cpp.o
 
-.PHONY : algorithm/greedy/874.o
+.PHONY : algorithm/greedy/55.o
 
 # target to build an object file
-algorithm/greedy/874.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/greedy/874.cpp.o
-.PHONY : algorithm/greedy/874.cpp.o
+algorithm/greedy/55.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/greedy/55.cpp.o
+.PHONY : algorithm/greedy/55.cpp.o
 
-algorithm/greedy/874.i: algorithm/greedy/874.cpp.i
+algorithm/greedy/55.i: algorithm/greedy/55.cpp.i
 
-.PHONY : algorithm/greedy/874.i
+.PHONY : algorithm/greedy/55.i
 
 # target to preprocess a source file
-algorithm/greedy/874.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/greedy/874.cpp.i
-.PHONY : algorithm/greedy/874.cpp.i
+algorithm/greedy/55.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/greedy/55.cpp.i
+.PHONY : algorithm/greedy/55.cpp.i
 
-algorithm/greedy/874.s: algorithm/greedy/874.cpp.s
+algorithm/greedy/55.s: algorithm/greedy/55.cpp.s
 
-.PHONY : algorithm/greedy/874.s
+.PHONY : algorithm/greedy/55.s
 
 # target to generate assembly for a file
-algorithm/greedy/874.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/greedy/874.cpp.s
-.PHONY : algorithm/greedy/874.cpp.s
+algorithm/greedy/55.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/greedy/55.cpp.s
+.PHONY : algorithm/greedy/55.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... algorithms"
-	@echo "... algorithm/greedy/874.o"
-	@echo "... algorithm/greedy/874.i"
-	@echo "... algorithm/greedy/874.s"
+	@echo "... algorithm/greedy/55.o"
+	@echo "... algorithm/greedy/55.i"
+	@echo "... algorithm/greedy/55.s"
 .PHONY : help
 
 
