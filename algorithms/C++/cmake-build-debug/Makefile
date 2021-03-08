@@ -143,32 +143,32 @@ algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
-algorithm/binary_chop/33.o: algorithm/binary_chop/33.cpp.o
+datastructure/design/460.o: datastructure/design/460.cpp.o
 
-.PHONY : algorithm/binary_chop/33.o
+.PHONY : datastructure/design/460.o
 
 # target to build an object file
-algorithm/binary_chop/33.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/binary_chop/33.cpp.o
-.PHONY : algorithm/binary_chop/33.cpp.o
+datastructure/design/460.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/design/460.cpp.o
+.PHONY : datastructure/design/460.cpp.o
 
-algorithm/binary_chop/33.i: algorithm/binary_chop/33.cpp.i
+datastructure/design/460.i: datastructure/design/460.cpp.i
 
-.PHONY : algorithm/binary_chop/33.i
+.PHONY : datastructure/design/460.i
 
 # target to preprocess a source file
-algorithm/binary_chop/33.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/binary_chop/33.cpp.i
-.PHONY : algorithm/binary_chop/33.cpp.i
+datastructure/design/460.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/design/460.cpp.i
+.PHONY : datastructure/design/460.cpp.i
 
-algorithm/binary_chop/33.s: algorithm/binary_chop/33.cpp.s
+datastructure/design/460.s: datastructure/design/460.cpp.s
 
-.PHONY : algorithm/binary_chop/33.s
+.PHONY : datastructure/design/460.s
 
 # target to generate assembly for a file
-algorithm/binary_chop/33.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/binary_chop/33.cpp.s
-.PHONY : algorithm/binary_chop/33.cpp.s
+datastructure/design/460.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/design/460.cpp.s
+.PHONY : datastructure/design/460.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... algorithms"
-	@echo "... algorithm/binary_chop/33.o"
-	@echo "... algorithm/binary_chop/33.i"
-	@echo "... algorithm/binary_chop/33.s"
+	@echo "... datastructure/design/460.o"
+	@echo "... datastructure/design/460.i"
+	@echo "... datastructure/design/460.s"
 .PHONY : help
 
 
