@@ -3,4 +3,4 @@ project(algorithms)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(algorithms datastructure/design/460.cpp)
+add_executable(algorithms weekly/47_5682.cpp)

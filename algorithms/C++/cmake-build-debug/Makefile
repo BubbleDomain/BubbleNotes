@@ -143,32 +143,32 @@ algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
-datastructure/design/460.o: datastructure/design/460.cpp.o
+weekly/47_5682.o: weekly/47_5682.cpp.o
 
-.PHONY : datastructure/design/460.o
+.PHONY : weekly/47_5682.o
 
 # target to build an object file
-datastructure/design/460.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/design/460.cpp.o
-.PHONY : datastructure/design/460.cpp.o
+weekly/47_5682.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/weekly/47_5682.cpp.o
+.PHONY : weekly/47_5682.cpp.o
 
-datastructure/design/460.i: datastructure/design/460.cpp.i
+weekly/47_5682.i: weekly/47_5682.cpp.i
 
-.PHONY : datastructure/design/460.i
+.PHONY : weekly/47_5682.i
 
 # target to preprocess a source file
-datastructure/design/460.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/design/460.cpp.i
-.PHONY : datastructure/design/460.cpp.i
+weekly/47_5682.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/weekly/47_5682.cpp.i
+.PHONY : weekly/47_5682.cpp.i
 
-datastructure/design/460.s: datastructure/design/460.cpp.s
+weekly/47_5682.s: weekly/47_5682.cpp.s
 
-.PHONY : datastructure/design/460.s
+.PHONY : weekly/47_5682.s
 
 # target to generate assembly for a file
-datastructure/design/460.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/datastructure/design/460.cpp.s
-.PHONY : datastructure/design/460.cpp.s
+weekly/47_5682.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/weekly/47_5682.cpp.s
+.PHONY : weekly/47_5682.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... algorithms"
-	@echo "... datastructure/design/460.o"
-	@echo "... datastructure/design/460.i"
-	@echo "... datastructure/design/460.s"
+	@echo "... weekly/47_5682.o"
+	@echo "... weekly/47_5682.i"
+	@echo "... weekly/47_5682.s"
 .PHONY : help
 
 
