@@ -3,4 +3,4 @@ project(algorithms)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(algorithms weekly/231_5698.cpp)
+add_executable(algorithms algorithm/binary_chop/74.cpp)
