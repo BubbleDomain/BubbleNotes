@@ -123,6 +123,33 @@ algorithms/fast:
 	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
+algorithm/binary_chop/153.o: algorithm/binary_chop/153.cpp.o
+
+.PHONY : algorithm/binary_chop/153.o
+
+# target to build an object file
+algorithm/binary_chop/153.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/binary_chop/153.cpp.o
+.PHONY : algorithm/binary_chop/153.cpp.o
+
+algorithm/binary_chop/153.i: algorithm/binary_chop/153.cpp.i
+
+.PHONY : algorithm/binary_chop/153.i
+
+# target to preprocess a source file
+algorithm/binary_chop/153.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/binary_chop/153.cpp.i
+.PHONY : algorithm/binary_chop/153.cpp.i
+
+algorithm/binary_chop/153.s: algorithm/binary_chop/153.cpp.s
+
+.PHONY : algorithm/binary_chop/153.s
+
+# target to generate assembly for a file
+algorithm/binary_chop/153.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/algorithm/binary_chop/153.cpp.s
+.PHONY : algorithm/binary_chop/153.cpp.s
+
 algorithm/binary_chop/74.o: algorithm/binary_chop/74.cpp.o
 
 .PHONY : algorithm/binary_chop/74.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... algorithms"
+	@echo "... algorithm/binary_chop/153.o"
+	@echo "... algorithm/binary_chop/153.i"
+	@echo "... algorithm/binary_chop/153.s"
 	@echo "... algorithm/binary_chop/74.o"
 	@echo "... algorithm/binary_chop/74.i"
 	@echo "... algorithm/binary_chop/74.s"
