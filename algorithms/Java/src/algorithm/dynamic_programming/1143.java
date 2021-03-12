@@ -1,4 +1,4 @@
-package datastructure.array;
+package algorithm.dynamic_programming;
 
 /**
  * @author: batteria
