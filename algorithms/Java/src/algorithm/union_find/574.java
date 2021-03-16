@@ -13,7 +13,7 @@ class Solution {
     int find(int t) {
         while(t != parents[t]) {
             // 压缩优化
-    // 		parents[t] = parents[parents[t]];
+            parents[t] = parents[parents[t]];
             t = parents[t];
         }
         return t;
@@ -21,19 +21,21 @@ class Solution {
 
     public int findCircleNum(int[][] isConnected) {
         int n = isConnected.length;
+        int count = n;
         parents = new int[n];
         for (int i = 0; i < n; i++) parents[i] = i;
         for (int i = 0; i < n - 1; i++) {
             for (int j = i + 1; j < n; j++) {
                 if (isConnected[i][j] == 0) continue;
-                parents[find(i)] = find(j);
+                int a1 = find(i);
+                int a2 = find(j);
+                if (a1 != a2) {
+                    parents[a1] = a2;
+                    count--;
+                }
             }
         }
-        int ans = 0;
-        for (int i = 0; i < n; i++) {
-            if (parents[i] == i) ans++;
-        }
-        return ans;
+        return count;
     }
 
     public static void main(String[] args) {
