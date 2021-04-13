@@ -6,7 +6,7 @@ package algorithm.dynamic_programming;
  * @since: 2021/3/12
  * @description: 200.
  */
-class Solution {
+class Solution200 {
     void flood(char[][] grid, int i, int j) {
         if (grid[i][j] == '0') return;
         grid[i][j] = '0';

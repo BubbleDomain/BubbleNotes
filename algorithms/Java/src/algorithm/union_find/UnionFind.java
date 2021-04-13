@@ -24,7 +24,7 @@ class UnionFind {
 		return p;
 	}
 
-	public union(int a, int b) {
+	public void union(int a, int b) {
 		a = find(a);
 		b = find(b);
 		if (a == b) return;

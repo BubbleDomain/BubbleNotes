@@ -6,7 +6,7 @@ package datastructure.array;
  * @since: 2020/12/12
  * @description: 26.remove-duplicates-from-sorted-array
  */
-class Solution {
+class Solution283 {
     public int removeDuplicates(int[] nums) {
         int size = nums.length;
         if (size == 0) return 0;

@@ -6,7 +6,7 @@ package algorithm.dynamic_programming;
  * @since: 2021/3/11
  * @description: 1143.最长公共子序列
  */
-class Solution {
+class Solution1143 {
     // 二维矩阵的前三个状态来推理后一个状态
     public int longestCommonSubsequence(String text1, String text2) {
         int l1 = text1.length(), l2 = text2.length();

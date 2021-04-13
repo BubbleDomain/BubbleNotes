@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-class Solution {
+class Solution127 {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         Set<String> lS = new HashSet<>();
         Set<String> rS = new HashSet<>();

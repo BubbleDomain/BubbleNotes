@@ -6,7 +6,7 @@ package algorithm.dynamic_programming;
  * @since: 2021/3/11
  * @description: 63.不同路径2
  */
-class Solution {
+class Solution63 {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m = obstacleGrid.length, n = obstacleGrid[0].length;
         int[] dp = new int[n];

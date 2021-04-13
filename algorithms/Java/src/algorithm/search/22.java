@@ -3,7 +3,7 @@ package algorithm.search;
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class Solution22 {
     List<String> ans = new ArrayList<>();
     int nn;
     void f(int left, int useL, int level, String s) {

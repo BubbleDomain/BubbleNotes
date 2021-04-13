@@ -6,7 +6,7 @@ package algorithm.dynamic_programming;
  * @since: 2021/3/12
  * @description: 574.省份数量
  */
-class Solution {
+class Solution574 {
     int[] parents;
 
     // 寻找最深的祖先

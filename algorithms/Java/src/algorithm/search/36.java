@@ -1,6 +1,6 @@
 package algorithm.search;
 
-class Solution {
+class Solution36 {
     public boolean isValidSudoku(char[][] board) {
         if (!solve(board, 1) || !solve(board, 2)) return false;
         int[] dx1 = {0, 3, 6, 0, 3, 6, 0, 3, 6};

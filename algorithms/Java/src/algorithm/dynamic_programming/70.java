@@ -6,7 +6,7 @@ package algorithm.dynamic_programming;
  * @since: 2021/3/12
  * @description: 70.爬楼梯
  */
-class Solution {
+class Solution70 {
     public int climbStairs(int n) {
         if (n == 1) return 1;
         if (n == 2) return 2;
